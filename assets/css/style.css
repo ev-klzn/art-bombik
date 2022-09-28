@@ -1260,3 +1260,11 @@ body {
     text-align: center;
     align-items: center;
 }
+
+.iconfooter {
+    font-size: 24px;
+    text-align: center;
+    align-items: center;
+    color: #17213C;
+    ;
+}
