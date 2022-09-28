@@ -401,6 +401,7 @@ body {
     box-shadow: 0px 0px 17px 1px rgba(34, 60, 80, 0.32);
     background-color: white;
     padding: 35px;
+    text-align: center;
 }
 
 @media (max-width: 479px) {
@@ -633,8 +634,8 @@ body {
 /* ------------------------------------------------------ */
 
 .whoweare {
-    background-color: white;
-    padding: 80px 0 130px 0;
+    background-color: #FAFAFA;
+    padding: 80px 0 80px 0;
 }
 
 @media (max-width: 950px) {
@@ -1035,7 +1036,7 @@ body {
 
 /* ------------------------------------------------------ */
 .page__contact {
-    background-color: white;
+    background-color: #FAFAFA;
     padding: 42px 0;
 }
 
@@ -1170,7 +1171,6 @@ body {
     text-decoration: underline;
 }
 
-
 .footer__contacts {
     color: #fff;
 }
@@ -1212,6 +1212,8 @@ body {
 
 .footter__bottom {
     padding: 25px 10px;
+    background: #FAFAFA;
+    ;
 }
 
 .footer__container {
@@ -1251,4 +1253,10 @@ body {
 
 .social__item:not(:last-child) {
     margin-right: 20px;
+}
+
+.icon {
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
 }
