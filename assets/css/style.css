@@ -1323,5 +1323,74 @@ body {
     text-decoration: none;
 }
 
-#contacts {
+#contacts {}
+
+/* --------------------------------------------------------------------- */
+.about {}
+
+.about__container {}
+
+.about__content {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.about__img img {
+    width: 100%;
+    width: 450px;
+    border-radius: 20px;
+}
+
+.about__body {}
+
+.about__title {
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.about__text {
+    font-size: 16px;
+    line-height: 1.3;
+    text-align: justify;
+}
+
+@media (max-width: 992px) {
+    .about__content {
+        flex-wrap: wrap;
+    }
+
+    .about__img img {
+        margin-top: 25px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 450px;
+    }
+
+    .about__content {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .about__text {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    .about__body {}
+
+}
+
+.about__content:nth-child(2) {
+    background: white;
+}
+
+.container__svetlana {
+    display: flex;
+    gap: 20px;
 }
