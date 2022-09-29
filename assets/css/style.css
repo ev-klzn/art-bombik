@@ -79,7 +79,7 @@ body {
 .header__logo {
     font-size: 24px;
     font-weight: 700;
-    color: inherit;
+    color: black;
 }
 
 .header__menu {
@@ -121,10 +121,9 @@ body {
 }
 
 .menu__link {
-    color: #737373;
+    color: black;
     line-height: 171%;
     font-weight: 600;
-
 }
 
 .menu__link:hover {
@@ -180,6 +179,7 @@ body {
     line-height: 137%;
     letter-spacing: 0.2px;
     font-weight: 800;
+    color: black;
 }
 
 @media (max-width: 479px) {
@@ -189,7 +189,7 @@ body {
 }
 
 .main-block__text {
-    color: #737373;
+    color: black;
     font-size: 20px;
     line-height: 150%;
 }
@@ -275,12 +275,13 @@ body {
     height: 100%;
     top: 0;
     left: 0;
+    opacity: 0.7;
 }
 
 @media (max-width: 1300px) {
     .main-block__image img {
-        object-position: right;
-        opacity: 0.7;
+        object-position: center;
+        opacity: 0.55;
     }
 }
 
@@ -663,7 +664,7 @@ body {
 
 @media (max-width: 950px) {
     .whoweare__body {
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: stretch;
 
     }
@@ -694,18 +695,18 @@ body {
 
 .whoweare__content {
     flex: 1 1 auto;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 @media (max-width: 1080px) {
     .whoweare__content {
-        padding: 0 0 0 50px;
+        padding: 30px 0 0 0px;
     }
 }
 
 @media (max-width: 950px) {
     .whoweare__content {
-        padding: 0 0 0 20px;
+        /* padding: 0 0 0 20px; */
     }
 }
 
@@ -732,6 +733,21 @@ body {
     font-size: 14px;
     line-height: 142%;
     letter-spacing: 0.2px;
+    text-align: justify;
+}
+
+.pwhotop {
+    padding-top: 30px;
+}
+
+.whoweare__2text {
+    /* padding-left: 20px; */
+    padding-top: 30px;
+    color: #737373;
+    font-size: 14px;
+    line-height: 142%;
+    letter-spacing: 0.2px;
+    text-align: justify;
 }
 
 .whoweare__items {
@@ -993,6 +1009,7 @@ body {
     font-weight: 600;
     line-height: 150%;
     font-size: 16px;
+    text-align: center;
 }
 
 .item__getintouch-email:hover {
