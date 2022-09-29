@@ -186,6 +186,10 @@ body {
     .main-block__title {
         font-size: 42px;
     }
+
+    .main-block__title {
+        padding-top: 30px;
+    }
 }
 
 .main-block__text {
