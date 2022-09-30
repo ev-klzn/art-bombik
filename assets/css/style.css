@@ -1348,6 +1348,7 @@ body {
     font-size: 30px;
     line-height: 1.5;
     font-weight: 700;
+    text-align: center;
 }
 
 .about__text {
@@ -1386,11 +1387,19 @@ body {
 
 }
 
-.about__content:nth-child(2) {
-    background: white;
-}
+.about__content:nth-child(2) {}
 
 .container__svetlana {
-    display: flex;
-    gap: 20px;
+    background: white;
+    padding: 30px 0 30px 0;
+}
+
+.container__svetlana:nth-child(2) {
+    background: white;
+    padding: 30px 0 0px 0;
+}
+
+.container__osikov {
+    background: #FAFAFA;
+    padding: 30px 0 30px 0;
 }
