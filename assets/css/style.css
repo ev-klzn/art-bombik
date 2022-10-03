@@ -1233,7 +1233,10 @@ body {
 .contacts-footer {
     display: flex;
     flex-direction: column;
+
 }
+
+
 
 .contacts-footer__item {
     color: #fff;
@@ -1290,6 +1293,11 @@ body {
     .footer__copy {
         margin-bottom: 15px;
         text-align: center;
+    }
+
+    .contacts-footer {
+        text-align: center;
+        align-items: center;
     }
 }
 
