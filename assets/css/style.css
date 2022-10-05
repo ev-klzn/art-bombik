@@ -1476,12 +1476,17 @@ body {
     }
 }
 
-.carousel-item {
-    width: 100%;
-    /* height: auto; */
+.galery {
+    /* height: 800px; */
+
 }
 
 .carousel-inner {
-    max-height: 100vh;
-    width: auto;
+    /* max-height: 720px; */
+
+}
+
+.carousel-item {
+    /* width: 100%; */
+    /* height: auto; */
 }
