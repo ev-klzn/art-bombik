@@ -1477,5 +1477,7 @@ body {
 }
 
 .carousel-item {
-    max-height: 350px;
+    /* width: 100%; */
+    width: auto;
+    max-height: 800px;
 }
