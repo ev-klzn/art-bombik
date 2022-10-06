@@ -665,12 +665,12 @@ body {
 .whoweare__container {}
 
 .whoweare__header {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 @media (max-width: 950px) {
     .whoweare__header {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 }
 
@@ -687,7 +687,8 @@ body {
     }
 
     .whoweare__video:not(:last-child) {
-        margin-top: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .whoweare__video {
@@ -755,7 +756,7 @@ body {
 }
 
 .pwhotop {
-    padding-top: 30px;
+    /* padding-top: 30px; */
 }
 
 .whoweare__2text {
@@ -1547,4 +1548,8 @@ body {
 
 .br {
     margin-top: 10px;
+}
+
+p {
+    text-indent: 30px;
 }
