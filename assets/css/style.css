@@ -549,7 +549,7 @@ body {
 
 
 .practice {
-    padding: 30px 0 50px 0;
+    padding: 30px 0 30px 0;
 }
 
 @media (max-width: 993px) {
@@ -670,7 +670,7 @@ body {
 
 .whoweare {
     background-color: #FAFAFA;
-    padding: 80px 0 80px 0;
+    padding: 30px 0 30px 0;
 }
 
 @media (max-width: 950px) {
@@ -982,7 +982,7 @@ body {
 .getintouch__container {}
 
 .getintouch__header {
-    margin: 0 0 80px 0;
+    margin: 0 0 30px 0;
 }
 
 .getintouch__items {
@@ -991,12 +991,12 @@ body {
 
 @media (min-width: 992px) {
     .getintouch {
-        padding: 50px 0;
+        padding: 20px 0;
     }
 
     .getintouch__items {
         display: flex;
-        align-items: center;
+        align-items: stretch;
         margin: 0;
     }
 }
@@ -1011,7 +1011,7 @@ body {
 
 @media (max-width: 992px) {
     .getintouch {
-        padding: 30px 0 30px 0;
+        padding: 20px 0 20px 0;
     }
 }
 
