@@ -1450,7 +1450,7 @@ body {
 
 .container__osikov {
     background: #FAFAFA;
-    padding: 30px 0 30px 0;
+    padding: 30px 0 0 0;
 }
 
 
@@ -1467,18 +1467,21 @@ body {
 }
 
 .goals__content {
-    padding: 10px;
+    padding-top: 10px;
     /* flex: 1 1 50%; */
 }
 
+.goals__content-2 {
+    margin-top: 40px;
+}
+
 .goals-block__title {
-    padding: 10px 0 20px 0;
+    padding: 0 0 20px 0;
     text-align: center;
     font-size: 24px;
     color: #252B42;
     line-height: 142%;
     font-weight: 700;
-
 }
 
 .goals-block__text {
@@ -1492,7 +1495,7 @@ body {
     }
 
     .goals__content {
-        padding: 10px;
+        /* padding: 10px; */
         /* flex: 1 1 100%; */
     }
 }
