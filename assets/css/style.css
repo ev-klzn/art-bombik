@@ -1555,10 +1555,10 @@ body {
         flex: 1 1 50%;
     }
 
-    .galery__item img:hover {
+    /* .galery__item img:hover {
         transform: scale(1.7);
         transition: all 0.5s ease 0s;
-    }
+    } */
 }
 
 .galery__item img {
