@@ -13,6 +13,9 @@
       integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/style2.css">
     <title>Арт-простір "Бомбік" - Музичне смузі</title>
@@ -88,47 +91,69 @@
 
         <section class="galery container">
           <h2 class="events-block__title">Фотозвіт події</h2>
-          <div class="galery__items">
-            <div class="galery__item">
-              <img
-                src="./assets/img/events/5_muzychne_smuzi/img-2.webp"
-                alt="музичне смузі фото 1">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="swiper-slide__img">
+                  <img
+                    src="assets/img/events/5_muzychne_smuzi/img-1.webp"
+                    alt="фото">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide__img">
+                  <img
+                    src="assets/img/events/5_muzychne_smuzi/img-2.webp"
+                    alt="фото ">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide__img">
+                  <img
+                    src="assets/img/events/5_muzychne_smuzi/img-3.webp"
+                    alt="фото">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide__img">
+                  <img
+                    src="assets/img/events/5_muzychne_smuzi/img-4.webp"
+                    alt="фото">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide__img">
+                  <img
+                    src="assets/img/events/5_muzychne_smuzi/img-5.webp"
+                    alt="фото">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide__img">
+                  <img
+                    src="assets/img/events/5_muzychne_smuzi/img-6.webp"
+                    alt="фото">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide__img">
+                  <img
+                    src="assets/img/events/5_muzychne_smuzi/img-7.webp"
+                    alt="фото">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide__img">
+                  <img
+                    src="assets/img/events/5_muzychne_smuzi/img-8.webp"
+                    alt="фото">
+                </div>
+              </div>
+              ...
             </div>
-            <div class="galery__item">
-              <img
-                src="./assets/img/events/5_muzychne_smuzi/img-1.webp"
-                alt="музичне смузі фото 2">
-            </div>
-            <div class="galery__item">
-              <img
-                src="./assets/img/events/5_muzychne_smuzi/img-3.webp"
-                alt="музичне смузі фото 3">
-            </div>
-            <div class="galery__item">
-              <img
-                src="./assets/img/events/5_muzychne_smuzi/img-4.webp"
-                alt="музичне смузі фото 4">
-            </div>
-            <div class="galery__item">
-              <img
-                src="./assets/img/events/5_muzychne_smuzi/img-5.webp"
-                alt="музичне смузі фото 5">
-            </div>
-            <div class="galery__item">
-              <img
-                src="./assets/img/events/5_muzychne_smuzi/img-8.webp"
-                alt="музичне смузі фото 8">
-            </div>
-            <div class="galery__item">
-              <img
-                src="./assets/img/events/5_muzychne_smuzi/img-7.webp"
-                alt="музичне смузі фото 7">
-            </div>
-            <div class="galery__item">
-              <img
-                src="./assets/img/events/5_muzychne_smuzi/img-6.webp"
-                alt="музичне смузі фото 6">
-            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
           </div>
         </section>
 
@@ -256,7 +281,7 @@
                 href="https://ev-klzn.github.io/">
                 Ev-Klzn.</a
               >
-              All Right Reserved
+              @ 2022. All Right Reserved
             </div>
             <div class="footer__social social">
               <a
@@ -279,5 +304,7 @@
         </div>
       </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
