@@ -1,0 +1,23 @@
+<?php echo bloginfo('template_url');?>/img/mainblock
+
+� css 
+../img
+
+<?php ?>
+
+<?php the_title(); ?>
+
+<?php
+get_header();
+?>
+
+<?php the_field ('yt');?>
+
+<?php the_field ('email', 2);?>
+
+add_theme_support( 'post-thumbnails' ); добавить превью поста (в функциях)
+<?php 
+
+the_post_thumbnail_url();?> и добвить в ссылку
+
+<?php echo do_shortcode( '[ваш_шорткод]' ); ?>
